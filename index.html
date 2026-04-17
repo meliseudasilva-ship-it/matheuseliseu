@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matheus Eliseu | Portfólio Profissional</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome para Ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc;
+        }
+        .social-btn {
+            transition: all 0.3s ease;
+        }
+        .social-btn:hover {
+            transform: translateY(-3px);
+        }
+    </style>
+</head>
+<body class="text-slate-800 antialiased">
+
+    <!-- Hero Section -->
+    <header class="bg-slate-900 text-white py-16 px-6 lg:px-20 relative overflow-hidden">
+        <div class="absolute inset-0 opacity-20 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]"></div>
+        <div class="max-w-5xl mx-auto relative z-10 flex flex-col md:flex-row items-center gap-10">
+            <!-- Foto de Perfil -->
+            <div class="w-48 h-48 md:w-64 md:h-64 flex-shrink-0">
+                <img src="Sans titre 21.jpg" alt="Matheus Eliseu" class="w-full h-full object-cover rounded-full border-4 border-emerald-500 shadow-xl shadow-emerald-500/20">
+            </div>
+            
+            <!-- Info Header -->
+            <div class="text-center md:text-left flex-1">
+                <h1 class="text-4xl md:text-5xl font-bold mb-4 tracking-tight">Matheus Eliseu</h1>
+                <p class="text-xl md:text-2xl text-emerald-400 font-medium mb-4">
+                    Especialista em Atendimento | Marketing Digital | Web Designer | Compositor
+                </p>
+                <p class="text-slate-300 leading-relaxed mb-8 max-w-2xl">
+                    Profissional com mais de 10 anos de experiência em Atendimento ao Cliente e Marketing Digital. Empatia, comunicação multicanal e foco na resolução ágil e humanizada de conflitos. Além da carreira corporativa, expresso minha criatividade através da música.
+                </p>
+                
+                <!-- Botões de Contato / Redes -->
+                <div class="flex flex-wrap justify-center md:justify-start gap-4">
+                    <a href="https://wa.me/5521972515504" target="_blank" class="social-btn bg-emerald-500 hover:bg-emerald-600 text-white px-6 py-3 rounded-full font-semibold flex items-center gap-2 shadow-lg">
+                        <i class="fab fa-whatsapp text-xl"></i> Fale Comigo
+                    </a>
+                    <a href="https://www.instagram.com/matheusaguiar.es/" target="_blank" class="social-btn bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-3 rounded-full font-semibold flex items-center gap-2 shadow-lg">
+                        <i class="fab fa-instagram text-xl"></i> Instagram
+                    </a>
+                    <a href="https://open.spotify.com/intl-pt/artist/7zhoHBAheG9qYTmgiJEmBq" target="_blank" class="social-btn bg-[#1DB954] hover:bg-[#1ed760] text-white px-6 py-3 rounded-full font-semibold flex items-center gap-2 shadow-lg">
+                        <i class="fab fa-spotify text-xl"></i> Meu Spotify
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-5xl mx-auto px-6 py-16 grid grid-cols-1 lg:grid-cols-3 gap-10">
+        
+        <!-- Coluna Esquerda (Competências e Formação) -->
+        <aside class="space-y-10 lg:col-span-1">
+            
+            <!-- Compositor Destaque -->
+            <section class="bg-white rounded-2xl p-6 shadow-sm border border-slate-100 text-center">
+                <div class="w-16 h-16 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <i class="fas fa-music text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Compositor</h3>
+                <p class="text-slate-600 text-sm mb-4">
+                    Conheça meu trabalho autoral e minhas composições disponíveis nas plataformas digitais.
+                </p>
+                <a href="https://open.spotify.com/intl-pt/artist/7zhoHBAheG9qYTmgiJEmBq" target="_blank" class="inline-block bg-slate-900 text-white text-sm font-semibold px-4 py-2 rounded-full hover:bg-slate-800 transition">
+                    Ouvir no Spotify <i class="fab fa-spotify ml-1 text-[#1DB954]"></i>
+                </a>
+            </section>
+
+            <!-- Competências -->
+            <section class="bg-white rounded-2xl p-6 shadow-sm border border-slate-100">
+                <h2 class="text-2xl font-bold text-slate-800 mb-6 border-b border-slate-100 pb-3"><i class="fas fa-star text-emerald-500 mr-2"></i> Competências</h2>
+                <div class="space-y-4">
+                    <div>
+                        <h4 class="font-semibold text-slate-700 text-sm mb-2">Atendimento</h4>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-emerald-50 text-emerald-700 text-xs px-3 py-1 rounded-full font-medium border border-emerald-200">Trato com o Público</span>
+                            <span class="bg-emerald-50 text-emerald-700 text-xs px-3 py-1 rounded-full font-medium border border-emerald-200">Empatia & Escuta Ativa</span>
+                            <span class="bg-emerald-50 text-emerald-700 text-xs px-3 py-1 rounded-full font-medium border border-emerald-200">Resolução de Problemas</span>
+                        </div>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold text-slate-700 text-sm mb-2">Comunicação e Marketing</h4>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-blue-50 text-blue-700 text-xs px-3 py-1 rounded-full font-medium border border-blue-200">Atendimento Multicanal</span>
+                            <span class="bg-blue-50 text-blue-700 text-xs px-3 py-1 rounded-full font-medium border border-blue-200">Gestão de Comunidades</span>
+                            <span class="bg-blue-50 text-blue-700 text-xs px-3 py-1 rounded-full font-medium border border-blue-200">Comunicação Assertiva</span>
+                        </div>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold text-slate-700 text-sm mb-2">Gestão e Operacional</h4>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-purple-50 text-purple-700 text-xs px-3 py-1 rounded-full font-medium border border-purple-200">Supervisão de Equipes</span>
+                            <span class="bg-purple-50 text-purple-700 text-xs px-3 py-1 rounded-full font-medium border border-purple-200">Gestão de Conflitos</span>
+                            <span class="bg-purple-50 text-purple-700 text-xs px-3 py-1 rounded-full font-medium border border-purple-200">Rotinas Administrativas</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Formação -->
+            <section class="bg-white rounded-2xl p-6 shadow-sm border border-slate-100">
+                <h2 class="text-2xl font-bold text-slate-800 mb-6 border-b border-slate-100 pb-3"><i class="fas fa-graduation-cap text-emerald-500 mr-2"></i> Formação</h2>
+                
+                <div class="mb-4">
+                    <p class="text-sm font-bold text-slate-800">Tecnólogo em Marketing Digital</p>
+                    <p class="text-xs text-slate-500">UNOPAR | 2021 - 2022</p>
+                </div>
+                
+                <h3 class="text-sm font-bold text-slate-700 mt-6 mb-3">Cursos e Certificações</h3>
+                <ul class="space-y-3">
+                    <li class="text-sm text-slate-600">
+                        <span class="block font-medium text-slate-800">Gestão da Comunicação e do Marketing em Clubes de Futebol</span>
+                        <span class="text-xs text-slate-500">IFCE / Min. do Esporte | 2025</span>
+                    </li>
+                    <li class="text-sm text-slate-600">
+                        <span class="block font-medium text-slate-800">Comunicação de Marketing Digital</span>
+                        <span class="text-xs text-slate-500">UNOPAR | 2022</span>
+                    </li>
+                    <li class="text-sm text-slate-600">
+                        <span class="block font-medium text-slate-800">Copywriting (Escrita Persuasiva)</span>
+                        <span class="text-xs text-slate-500">Rock University | 2021</span>
+                    </li>
+                </ul>
+            </section>
+        </aside>
+
+        <!-- Coluna Direita (Experiência Profissional) -->
+        <div class="lg:col-span-2 space-y-8">
+            <h2 class="text-3xl font-bold text-slate-800 border-b-2 border-emerald-500 pb-2 inline-block"><i class="fas fa-briefcase text-emerald-500 mr-2"></i> Experiência Profissional</h2>
+            
+            <div class="relative border-l-2 border-slate-200 pl-6 space-y-10 ml-3">
+                
+                <!-- Experiência 1 -->
+                <div class="relative">
+                    <div class="absolute -left-[35px] top-1 w-4 h-4 bg-emerald-500 rounded-full border-4 border-white shadow"></div>
+                    <h3 class="text-xl font-bold text-slate-800">Gestão de Comunidades e Relacionamento Digital</h3>
+                    <p class="text-emerald-600 font-medium text-sm mb-2">Projetos Digitais (YouTube) | <span class="text-slate-500">2021 - Atual</span></p>
+                    <ul class="list-disc list-outside ml-4 space-y-2 text-slate-600 text-sm">
+                        <li>Interação diária e atendimento ao público (inscritos/seguidores) através das redes sociais e moderação de comentários.</li>
+                        <li>Análise de métricas de satisfação, retenção e perfil do público para guiar e adaptar a comunicação.</li>
+                        <li>Escuta ativa para identificar as demandas dos usuários, garantindo um engajamento orgânico e positivo.</li>
+                    </ul>
+                </div>
+
+                <!-- Experiência 2 -->
+                <div class="relative">
+                    <div class="absolute -left-[35px] top-1 w-4 h-4 bg-slate-300 rounded-full border-4 border-white"></div>
+                    <h3 class="text-xl font-bold text-slate-800">Promotor de Vendas</h3>
+                    <p class="text-emerald-600 font-medium text-sm mb-2">Lexikon Editora Digital LTDA | <span class="text-slate-500">Setembro de 2023</span></p>
+                    <ul class="list-disc list-outside ml-4 space-y-2 text-slate-600 text-sm">
+                        <li>Atuação em contrato temporário de 10 dias durante a Bienal do Rio, aplicando técnicas de promoção e relacionamento com o cliente.</li>
+                    </ul>
+                </div>
+
+                <!-- Experiência 3 -->
+                <div class="relative">
+                    <div class="absolute -left-[35px] top-1 w-4 h-4 bg-slate-300 rounded-full border-4 border-white"></div>
+                    <h3 class="text-xl font-bold text-slate-800">Gestão Comercial e Relacionamento</h3>
+                    <p class="text-emerald-600 font-medium text-sm mb-2">PWJ Sistemas e Soluções | <span class="text-slate-500">2022 - 2023</span></p>
+                    <ul class="list-disc list-outside ml-4 space-y-2 text-slate-600 text-sm">
+                        <li>Prospecção de clientes e atendimento focado no entendimento aprofundado de necessidades comerciais.</li>
+                        <li>Integração de processos operacionais para facilitar a comunicação entre a empresa e o cliente final.</li>
+                        <li>Suporte comercial e organização de serviços através de mídias digitais (WhatsApp, Instagram).</li>
+                    </ul>
+                </div>
+
+                <!-- Experiência 4 -->
+                <div class="relative">
+                    <div class="absolute -left-[35px] top-1 w-4 h-4 bg-slate-300 rounded-full border-4 border-white"></div>
+                    <h3 class="text-xl font-bold text-slate-800">Monitor Trainee / Atendimento ao Público</h3>
+                    <p class="text-emerald-600 font-medium text-sm mb-2">JG Care Diagnósticos (Lab. Sérgio Franco) | <span class="text-slate-500">2012 - 2021</span></p>
+                    <ul class="list-disc list-outside ml-4 space-y-2 text-slate-600 text-sm">
+                        <li>Atuação presencial por 9 anos garantindo a excelência na jornada do paciente com recepção humanizada.</li>
+                        <li>Marcação de exames, triagem, esclarecimento de dúvidas e resolução ágil de conflitos operacionais.</li>
+                        <li>Operação de caixa, organização de fluxos e suporte em atividades administrativas da unidade.</li>
+                        <li>Supervisão da equipe de atendimento, assegurando o cumprimento das metas e padrões de qualidade.</li>
+                    </ul>
+                </div>
+
+                <!-- Experiência 5 -->
+                <div class="relative">
+                    <div class="absolute -left-[35px] top-1 w-4 h-4 bg-slate-300 rounded-full border-4 border-white"></div>
+                    <h3 class="text-xl font-bold text-slate-800">Pré-atendimento e Suporte (Jovem Aprendiz)</h3>
+                    <p class="text-emerald-600 font-medium text-sm mb-2">Citibank | <span class="text-slate-500">2010 - 2012</span></p>
+                    <ul class="list-disc list-outside ml-4 space-y-2 text-slate-600 text-sm">
+                        <li>Primeiro ponto de contato com clientes da agência, fornecendo orientação e suporte técnico.</li>
+                        <li>Esclarecimento de dúvidas básicas sobre serviços de câmbio, pagamentos e rotinas financeiras.</li>
+                    </ul>
+                </div>
+
+                 <!-- Experiência 6 -->
+                 <div class="relative">
+                    <div class="absolute -left-[35px] top-1 w-4 h-4 bg-slate-300 rounded-full border-4 border-white"></div>
+                    <h3 class="text-xl font-bold text-slate-800">Atendimento Interno e Externo (Estagiário)</h3>
+                    <p class="text-emerald-600 font-medium text-sm mb-2">Assembleia Legislativa do RJ (ALERJ) | <span class="text-slate-500">2007 - 2009</span></p>
+                    <ul class="list-disc list-outside ml-4 space-y-2 text-slate-600 text-sm">
+                        <li>Recepção e direcionamento do público geral, assegurando comunicação clara e prestativa.</li>
+                        <li>Digitação, organização documental e tramitação de processos administrativos.</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-400 py-8 text-center mt-10">
+        <div class="flex justify-center gap-6 mb-4">
+            <a href="https://wa.me/5521972515504" class="hover:text-white transition"><i class="fab fa-whatsapp text-2xl"></i></a>
+            <a href="https://www.instagram.com/matheusaguiar.es/" class="hover:text-white transition"><i class="fab fa-instagram text-2xl"></i></a>
+            <a href="https://open.spotify.com/intl-pt/artist/7zhoHBAheG9qYTmgiJEmBq" class="hover:text-white transition"><i class="fab fa-spotify text-2xl"></i></a>
+        </div>
+        <p class="text-sm">
+            © 2026 Matheus Eliseu. Todos os direitos reservados.
+        </p>
+        <p class="text-xs mt-2 text-slate-500">Rio de Janeiro - RJ | meliseudasilva@gmail.com</p>
+    </footer>
+
+</body>
+</html>
